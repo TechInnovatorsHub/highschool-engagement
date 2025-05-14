@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sunshine High School</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">🌞 State House Girls HighSchool</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#clubs">Clubs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Welcome to StateHouse Girls High!</h1>
+    <p>Strive to Excel - Your future starts here.</p>
+    <img src="./assets/image.png" alt="students" />
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <div class="about-content">
+      <img src="./assets/image0.png" alt="school" />
+      <p>The Vision of State House Girls’ High School is: “To be a Class ‘A’ Rated School”</p>
+    </div>
+  </section>
+
+  <section id="clubs" class="clubs">
+    <h2>Clubs & Activities</h2>
+    <div class="club-list">
+      <div class="club">
+        <h3>🎨 Art Club</h3>
+        <p>Explore creativity through drawing, painting, and crafts.</p>
+      </div>
+      <div class="club">
+        <h3>💻 Coding Club</h3>
+        <p>Learn HTML, CSS, JavaScript and build cool stuff.</p>
+      </div>
+      <div class="club">
+        <h3>📚 Debate Club</h3>
+        <p>Sharpen your public speaking and critical thinking skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="submitForm(event)">
+      <input type="text" id="name" placeholder="Your name" required />
+      <input type="email" id="email" placeholder="Your email" required />
+      <textarea id="message" placeholder="Your message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sunshine High School. Designed with 💛</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
